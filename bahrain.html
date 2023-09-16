@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flag of Bahrain</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .flag{
+            position: absolute;
+            top: 30vh;
+            left: 70vh;
+            box-shadow: 0 4px 6px;
+            padding: 0  300px 0 100px;
+        }
+        .triangle {
+            width: 0;
+            height: 0;
+            border-left: 25px solid transparent;
+            border-right: 25px solid transparent;
+            border-bottom: 50px solid firebrick;
+            transform: rotate(-90deg);
+
+        }
+
+
+        .limit-start {
+            width: 0;
+            height: 0;
+            border: 25px solid firebrick;
+            border-left: 25px solid transparent;
+            border-top: 25px solid transparent;
+            transform: rotate(-90deg);
+        }
+
+        .limit-end {
+            width: 0;
+            height: 0;
+            border: 25px solid firebrick;
+            border-right: 25px solid transparent;
+            border-top: 25px solid transparent;
+            border-bottom: 25px solid firebrick;
+            transform: rotate(-90deg);
+        }
+
+        .red{
+          width: 0;
+          height: 0;
+          position: absolute;
+          top: 0;
+          left: 150px;
+          border: 30px solid firebrick;
+         border-top: 270px solid firebrick;
+         border-left: 270px solid firebrick;
+        }
+
+        h1{
+            margin-top: 100px;
+            text-align: center;
+            font-size: 4rem;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Flag of Bahrain</h1>
+    <div class="flag">
+        <div class="limit-start"></div>
+        <div class="triangle"></div>
+        <div class="triangle"></div>
+        <div class="triangle"></div>
+        <div class="triangle"></div>
+        <div class="limit-end"></div>
+        <div class="red"></div>
+    </div>
+</body>
+</html>
