@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flag of Brazil</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        h1{
+            margin-top: 15%;
+            font-size: 2rem;
+            text-transform: uppercase;
+        }
+        .brazil{
+            width: 10rem;
+            height: 8rem;
+            margin: 0 43%;
+            background-color: green;
+            border: 1px solid green;
+            display: flex;
+            position: absolute;
+            top: 43%;
+            
+        }
+        .triangle-1{
+            margin: 16% 0;
+            width: 0;
+            height: 0;
+            border-left: 2.55rem solid transparent;
+            border-right: 2.55rem solid transparent;
+            border-bottom: 5.1rem solid yellow;
+            transform: rotate(-90deg);
+        }
+        .triangle-2{
+            margin: 16% 0;
+            width: 0;
+            height: 0;
+            border-left: 2.55rem solid transparent;
+            border-right: 2.55rem solid transparent;
+            border-bottom: 5.1rem solid yellow;
+            transform: rotate(90deg);
+        }
+
+        .circle {
+            position: absolute;
+            top: 34px;
+            left: 48px;
+            width: 0;
+            height: 0;
+            border: 2.0rem solid blue;
+            z-index: 2;
+            border-radius: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Flag of Brazil</h1>
+    <div class="brazil">
+        <div class="triangle-1"></div>
+        <div class="circle"></div>
+        <div class="triangle-2"></div>
+    </div>
+</body>
+</html>
